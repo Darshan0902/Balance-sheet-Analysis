@@ -20,4 +20,10 @@ balance_sheet = balance_sheet.json()
 #print(balance_sheet)
 
 
+#Calculating the Total Assets:
+total_current_assets = balance_sheet[0]['totalCurrentAssets']
+# Ensure that you have given proper index here in this case '0' specifies the value of the current most entry.
+print(f"Total current assets of  {company} : {total_current_assets:,}")
+
+
 
