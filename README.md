@@ -19,3 +19,6 @@ Percentage intanglible : 8.499058215427747%
 
 
 ```
+
+
+
