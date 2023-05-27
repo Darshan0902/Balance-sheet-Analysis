@@ -31,4 +31,8 @@ total_current_liabilities = balance_sheet[0]['totalCurrentLiabilities']
 # Ensure that you have given proper index here in this case '0' specifies the value of the current most entry.
 print(f"Total current Liabilities of  {company} : {total_current_liabilities:,}")
 
-
+#calculating the debt of any company ;
+total_debt = balance_sheet[0]['totalDebt']
+cash_and_equivalents = balance_sheet[0]['cashAndCashEquivalents']
+cash_debt_difference = cash_and_equivalents - total_debt
+print(f"cash_debt_difference for {company} : {cash_debt_difference :,}")
