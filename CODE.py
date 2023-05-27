@@ -38,3 +38,11 @@ cash_debt_difference = cash_and_equivalents - total_debt
 print(f"cash_debt_difference for {company} : {cash_debt_difference :,}")
 
 
+# calculating the percentage for intangible assets :
+
+goodwill_and_intangibles = balance_sheet[0]['goodwillAndIntangibleAssets']
+total_assets = balance_sheet[0]['totalAssets']
+percentage_intangible = goodwill_and_intangibles / total_assets
+print(f"Percentage intanglible : {percentage_intangible*100}%")
+
+
