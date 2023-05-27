@@ -26,6 +26,16 @@ Percentage intanglible : 8.499058215427747%
 Website used : 
 
 
+https://site.financialmodelingprep.com/developer/docs/ 
+
+
+
+Generate your API key over here : 
+
+
+https://site.financialmodelingprep.com/developer/docs/ 
+
+1.) Login and go back use the generated key in your variable named as "API_KEY".
 
 
 
