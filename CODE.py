@@ -2,7 +2,7 @@ import requests
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-api_key ="92b75130d3daacde926058020c7591da"
+api_key ="dedwiejkdpdweod" #Get yours at https://site.financialmodelingprep.com/developer/docs/
 company = "GOOG"  # make sure you use the ticker symbol.
 
 years = 5  #define the years
