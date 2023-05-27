@@ -36,3 +36,5 @@ total_debt = balance_sheet[0]['totalDebt']
 cash_and_equivalents = balance_sheet[0]['cashAndCashEquivalents']
 cash_debt_difference = cash_and_equivalents - total_debt
 print(f"cash_debt_difference for {company} : {cash_debt_difference :,}")
+
+
